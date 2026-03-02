@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+<div class="container">
+
+    <!-- Start Button -->
+    <button id="startbtn">Start Game</button>
+
+    <!-- Username Section (Hidden Initially) -->
+    <div class="displaya" id="username1">
+        <label for="firstuser">First User</label>
+        <input type="text" id="firstuser" placeholder="Enter first username">
+
+        <label for="seconduser">Second User</label>
+        <input type="text" id="seconduser" placeholder="Enter second username">
+
+        <button class="next">Next</button>
+    </div>
+
+    <!-- Game Board (Hidden Initially) -->
+    <div class="displaya" id="box1">
+      
+        <!-- <br><br><br> -->
+        <div class="b" data-index="0"></div>
+        <div class="b" data-index="1"></div>
+        <div class="b" data-index="2"></div>
+        <div class="b" data-index="3"></div>
+        <div class="b" data-index="4"></div>
+        <div class="b" data-index="5"></div>
+        <div class="b" data-index="6"></div>
+        <div class="b" data-index="7"></div>
+        <div class="b" data-index="8"></div>
+          <!-- <h2 id="turnText"></h2> -->
+    </div>
+    <div class="displaya" id="turn1">
+        <h3 id="turnText"></h2>
+        <button id="reset">Reset</button>
+
+    </div>
+    <div class="displaya" id="winner1">
+        <h2 id="winnerplayer">hrtgrfgrfgf</h2>
+        <button id="home">Home</button>
+        <button id="restart">Restart</button>
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
